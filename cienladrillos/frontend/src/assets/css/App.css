@@ -1,0 +1,250 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    #contenedor {
+        display: flex;
+        flex-flow: row wrap;
+    }
+    
+    #contenedor1 {
+        display: flex;
+        flex-flow: row wrap;
+        background-color: white;
+        padding: 17px;
+        width: 100%;
+        border-bottom: 1px solid #D4D4D4;
+    }
+    
+    #contenedor1 #contImg {
+        width: 60%;
+    }
+    
+    #contenedor1 #contImg #imagen1 {
+        margin-left: 60px;
+    }
+    
+    #contenedor1 #subcontenedor1 {
+        display: flex;
+        flex-flow: row wrap;
+        flex-grow: 1;
+        width: 40%;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #contenedor1 #subcontenedor1 nav>a {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin-right: 20px;
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(1) {
+        color: rgba(248, 80, 80, 1);
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(1):hover {
+        text-decoration: underline !important;
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(2) {
+        color: rgba(248, 80, 80, 1);
+        padding: 20px 30px;
+        border-radius: 70px;
+        border: 1px solid #f7b1b1;
+        background-color: rgba(255, 192, 192, 0.1);
+        transition: all 2s;
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(2):hover {
+        color: white;
+        background-color: rgba(248, 80, 80, 0.7);
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(3) {
+        color: white;
+        border-radius: 70px;
+        padding: 20px 30px;
+        margin-right: 0px;
+        background-color: rgba(248, 80, 80, 0.7);
+        transition: all 2s;
+    }
+    
+    #contenedor1 #subcontenedor1 nav a:nth-child(3):hover {
+        background-color: rgba(248, 80, 80, 1);
+    }
+    
+    #contenedor2 {
+        display: flex;
+        flex-flow: row wrap;
+        width: 100%;
+        margin: 0px;
+    }
+    
+    #contenedor2 #subcontenedor2 {
+        width: 40%;
+        height: 84.2vh;
+        background-image: url("../../img/photo-1619795015.jpeg");
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+    
+    #contenedor2 #subcontenedor2>img {
+        width: 100%;
+    }
+    
+    #contenedor2 #subcontenedor3 {
+        width: 60%;
+    }
+    
+    #formulario {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: left;
+        font-size: 11px;
+        margin-left: 31%;
+        margin-top: 25px;
+        line-height: 20px;
+        text-align: justify;
+        width: 35%;
+    }
+    
+    .form3 {
+        margin-top: 75px !important;
+    }
+    
+    #formulario h2 {
+        margin-bottom: 25px;
+    }
+    
+    #formulario>p>a {
+        text-decoration: none;
+    }
+    
+    .azul {
+        color: rgb(12, 181, 233);
+    }
+    
+    #formDef {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        line-height: 30px;
+        width: 100%;
+    }
+    
+    .formDef2 {
+        margin-top: 140px !important;
+    }
+    
+    .formDef3 {
+        margin-top: 0px !important;
+    }
+    
+    #formDef .labels {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(73, 73, 73, 0.8);
+        font-weight: 500;
+        font-size: 12px;
+    }
+    
+    #formDef .label1 {
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgba(73, 73, 73, 1);
+        font-weight: 700;
+        font-size: 12px;
+    }
+    
+    #formDef #botonarea {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        margin-top: 20px;
+        width: 99%;
+    }
+    
+    #formDef #botonarea .botones {
+        padding: 10px 18px;
+        border: none;
+        color: rgb(168, 166, 166);
+        background-color: rgba(190, 189, 189, 0.3);
+        border-radius: 4px;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: all 3s;
+    }
+    
+    #formDef #botonarea .botones:hover {
+        color: black;
+        background-color: rgba(190, 189, 189, 1);
+    }
+    
+    #formDef input {
+        padding: 8px;
+        color: rgb(190, 190, 190, 0.8);
+        border: 1px solid rgb(190, 190, 190);
+        border-radius: 4px;
+        width: 100%;
+        transition: all 3s;
+    }
+    
+    #formDef input:focus {
+        border: 2px solid rgb(190, 189, 189);
+    }
+    
+    #formulario #p1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    #formulario #p1::after,
+    #formulario #p1::before {
+        content: "";
+        position: absolute;
+        width: 80px;
+        height: 0.5px;
+        background-color: rgba(190, 189, 189, 0.9);
+        top: 67.8vh;
+    }
+    
+    #p1::after {
+        left: 750px;
+    }
+    
+    #p1::before {
+        right: 245px;
+    }
+    
+    #redes {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-grow: 1;
+        width: 100%;
+    }
+    
+    #redes .caja img {
+        width: 35px;
+        height: 35px;
+    }
+    
+    #redes .caja {
+        border: 1px solid rgba(190, 189, 189, 0.7);
+        border-radius: 4px;
+        padding: 10px;
+        box-shadow: 0px 0px 1px rgba(190, 189, 189, 1);
+    }
+    
+    #puntos ul li {
+        display: flex;
+        flex-direction: row;
+    }
